@@ -38,5 +38,4 @@ maps <- mclapply(months, function(dateCrossection){
          ., device = "png", width = 5, height = 2.5)
 }, mc.cores=detectCores() - 1)
 
-system("gifski frames/frame_*.png --fps 2 --output map.gif")
-system("cp map.gif /tmp")
+#system("gifski frames/frame_*.png --fps 2 --output map.gif")

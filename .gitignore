@@ -26,3 +26,6 @@ data/raw/*
 
 data/ne/*
 !data/ne/manifest
+
+.reprozip-trace/*
+*.rpz
